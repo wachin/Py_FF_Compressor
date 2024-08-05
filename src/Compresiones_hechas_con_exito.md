@@ -1,4 +1,4 @@
-Menos de 16 MB acepta WhatsApp en un video, y para poderlos compartir a ese tamaño he hecho los siguientes 
+Menos de 16 MB acepta WhatsApp en un video, y para poderlos compartir a ese tamaño he hecho los siguientes
 calculos para comprimir videos
 
 Cualquiera de las líneas ejemplo:
@@ -31,7 +31,7 @@ video 220kbps, 512x288, fps15. Audio 30k, 44.1kHz (Convirtió un video de 7:58mi
 -vf "scale=512:288" -b:v 220k -r 15 -ac 1 -b:a 30k -ar 44100
                                                   buena calidad
 
-video 200kbps, 512x288, fps15. Audio 30k, 44.1kHz 
+video 200kbps, 512x288, fps15. Audio 30k, 44.1kHz
                                                   (Convirtió un video de 8:42min a 15,3MB)
                                                   (Convirtió un video de 9:17min a 11,9MB)
                                                   (Convirtió un video de 9:35min a 15.5MB bien)
@@ -58,7 +58,7 @@ video 160kbps, 512x288, fps15. Audio 30k, 44.1kHz (Convirtió un video de 10:45m
 ************
 El siguiente es un video con baja calidad de video pero alta calidad de sonido
 -vf "scale=512:288" -b:v 155k -r 15 -ac 1 -b:a 80k -ar 44100
-  
+
 video 150k, 512x288, fps15. Audio 30k, 44.1kHz  (Convirtió un video de 11:07min a 15,05MB)
 -vf "scale=512:288" -b:v 150k -r 15 -ac 1 -b:a 30k -ar 44100
 
@@ -85,14 +85,14 @@ video 120k, 512x288, fps15, Audio 26k, 44100        (Convirtió un video de 14:3
 
 
 video 110k, 512x288, fps15, Audio 24k, 44100   (Convirtió un video de 15:14min a 15.2MB)
--vf "scale=512:288" -b:v 110k -r 15 -ac 1 -b:a 24k -ar 44100 
+-vf "scale=512:288" -b:v 110k -r 15 -ac 1 -b:a 24k -ar 44100
 
 
 video 100k, 512x288, fps15, Audio 19k, 44100  (Convirtió un video de 16:45min a 14.9MB)
--vf "scale=512:288" -b:v 100k -r 15 -ac 1 -b:a 19k -ar 44100 
+-vf "scale=512:288" -b:v 100k -r 15 -ac 1 -b:a 19k -ar 44100
 
 video 95k, 512x288, fps15, Audio 19k, 44100  (Convirtió un video de 17:18min a 15.1MB)
--vf "scale=512:288" -b:v 95k -r 15 -ac 1 -b:a 19k -ar 44100 
+-vf "scale=512:288" -b:v 95k -r 15 -ac 1 -b:a 19k -ar 44100
 Brandon
 
 video 90k, 512x288, fps15, Audio 18k, 44100   (Convirtió un video de 19:23min a 15.6MB)
@@ -106,7 +106,7 @@ video 85k, 512x288, fps15, Audio 18k, 44100   (Convirtió un video de 20:20min a
 
 video 80k, 512x288, fps15, Audio 18k, 44100   (Convirtió un video de 21:07min a 15.6MB)
 -vf "scale=512:288" -b:v 80k -r 15 -ac 1 -b:a 18k -ar 44100
-Beto para la Boda usar 
+Beto para la Boda usar
 
 
 video 70k, 512x288, fps15, Audio 18k, 44100   (Convirtió un video de 20:33min a 14.4MB)
@@ -123,22 +123,22 @@ video 70k, 512x288, fps15, Audio 18k, 44100   (Convirtió un video de 20:33min a
 
 -vf "scale=512:288" -b:v 65k -r 15 -ac 1 -b:a 18k -ar 44100
                                               (Convirtió un video de 23:00min a 16.2MB)
-                                              
+
 -vf "scale=512:288" -b:v 65k -r 15 -ac 1 -b:a 20k -ar 44100
 
 
 -vf "scale=512:288" -b:v 65k -r 15 -ac 1 -b:a 22k -ar 44100
                                               (Convirtió un video de 23:12min a 15.1MB) mejoró el audio
-                                              
+
 -vf "scale=512:288" -b:v 65k -r 15 -ac 1 -b:a 24k -ar 44100
                                               (Convirtió un video de 23:12min a 15.5MB) mejoró el audio
 
 
 
-             
+
 -vf "scale=512:288" -b:v 64k -r 15 -ac 1 -b:a 18k -ar 44100
 
-                                              
+
 -vf "scale=512:288" -b:v 64k -r 15 -ac 1 -b:a 18k -ar 44100
                                               (Convirtió un video de min a MB)
 
@@ -166,7 +166,7 @@ video 220kbps, 288x512, fps15,  Audio 30k, 44.1kHz  (Convirtió un video de 8:05
 -vf "scale=288:512" -b:v 220k -r 15 -ac 1 -b:a 30k -ar 44100
 
 
-video 180kbps, 288x512, fps15,  Audio 30k, 44.1kHz 
+video 180kbps, 288x512, fps15,  Audio 30k, 44.1kHz
 -vf "scale=288:512" -b:v 180k -r 15 -ac 1 -b:a 30k -ar 44100
 
 
@@ -221,5 +221,6 @@ audio 32kbps, 44.1kHz, 1 chnnels, AAC
 
 vídeo 95kbps, 320x240, fps15, audio 32kbps, 1 chnnel
 -vf "scale=320:240" -b:v 95k -r 15 -ac 1 -b:a 30k -ar 44100
+
 
 
